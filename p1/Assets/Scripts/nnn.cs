@@ -14,7 +14,7 @@ public class nnn : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (transform.position.z <= 568)
+        if (transform.position.z <= 1270)
         {
             rb.AddForce(0, 0, forwardForce * Time.deltaTime);
             if (Input.GetKey("d"))
